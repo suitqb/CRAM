@@ -1,0 +1,22 @@
+# ── Obligatoire ───────────────────────────────
+requests>=2.28.0          # appels API REST (Mistral, etc.)
+sounddevice>=0.4.6        # enregistrement audio micro / son système
+numpy>=1.24.0             # traitement audio
+
+# ── Transcription ─────────────────────────────
+# Whisper local (recommandé)
+openai-whisper>=20231117
+torch>=2.0.0              # requis par openai-whisper
+
+# ── Providers LLM — installe uniquement ce dont tu as besoin ──
+# Mistral (défaut)
+# → pas de SDK dédié, utilise requests (déjà listé)
+
+# OpenAI (LLM GPT-4o ou Whisper API)
+openai>=1.0.0
+
+# Anthropic (Claude)
+anthropic>=0.25.0
+
+# Google (Gemini)
+google-generativeai>=0.5.0
