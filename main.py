@@ -64,9 +64,9 @@ def title(msg):
 
 def banner():
     print(f"""
-{BO}{C}  ╔═══════════════════════════════════╗
-  ║   🎙️  CRon — Compte Rendu Auto     ║
-  ╚═══════════════════════════════════╝{RST}""")
+{BO}{C}  ╔══════════════════════════════════════════════════════╗
+  ║   🎙️  CRAM —  Compte Rendu Automatique de Meeting     ║
+  ╚══════════════════════════════════════════════════════╝{RST}""")
 
 def separator():
     print(f"  {DIM}{'─' * 45}{RST}")
