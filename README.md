@@ -1,4 +1,4 @@
-# CRon 🎙️
+# CRAM - Compte Rendu Automatique de Meeting 🎙️
 > Génère automatiquement tes comptes rendus de réunion.
 
 Enregistre la réunion (micro ou son système) → transcrit avec Whisper local → génère le CR formaté avec le LLM de ton choix → ajoute en haut du fichier de suivi.
